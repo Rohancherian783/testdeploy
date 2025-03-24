@@ -4,7 +4,7 @@
 
     <groupId>d2488c04-e893-4845-94e2-3087b7daa8a2</groupId>
     <artifactId>testdeploy</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>mule-application</packaging>
 
     <name>testdeploy</name>
@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <mule.maven.plugin.version>4.1.1</mule.maven.plugin.version>
+        <mule.maven.plugin.version>4.4.0</mule.maven.plugin.version>
     </properties>
 
     <build>
@@ -29,6 +29,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <classifier>mule-application</classifier>
+                    <runtimeVersion>4.6.0</runtimeVersion>
                     <cloudhub2Deployment>
                         <uri>https://anypoint.mulesoft.com</uri>
                         <provider>MC</provider>
@@ -104,5 +105,4 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-</project>
-
+</project> 
