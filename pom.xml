@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>e641ec83-52ce-467a-9783-89b1051bf1ae</groupId>
+    <groupId>d2488c04-e893-4845-94e2-3087b7daa8a2</groupId>
     <artifactId>testdeploy</artifactId>
     <version>1.0.0</version>
     <packaging>mule-application</packaging>
