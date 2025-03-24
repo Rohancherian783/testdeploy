@@ -87,7 +87,7 @@
 			<layout>default</layout>
 		</repository>
 		<repository>
-			<id>anypoint-exchange-v3</id>
+			<id>Repository</id>
 			<name>Private Exchange repository</name>
 			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${project.group.Id}/maven</url>
 			<layout>default</layout>
