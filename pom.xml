@@ -4,7 +4,7 @@
 
     <groupId>d2488c04-e893-4845-94e2-3087b7daa8a2</groupId>
     <artifactId>testdeploy</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>mule-application</packaging>
 
     <name>testdeploy</name>
@@ -29,7 +29,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <classifier>mule-application</classifier>
-                    <runtimeVersion>4.6.0</runtimeVersion>
+                    <runtimeVersion>4.9.2</runtimeVersion>
                     <cloudhub2Deployment>
                         <uri>https://anypoint.mulesoft.com</uri>
                         <provider>MC</provider>
